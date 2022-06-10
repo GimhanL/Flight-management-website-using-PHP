@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="reg.css">
+    <title>Untitled Document</title>
+    <style>
+        body {
+            background-image: url("images/787275.jpg");
+            height: 800px;
+            background-size: cover;
+            background-position: center;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form name="reg" action="insertflight.php" method="post">
+        <div class="container">
+            <p>&nbsp;</p>
+            <p>
+                <h2>Add Flight </h2></p>
+            <div>
+                <p>Flight Name
+                    <input type="text" name="fnname" placeholder="Flight Name" required>
+                </p>
+
+            </div>
+            <div>
+                <p>Compnay Name
+                    <input type="text" name="cname" placeholder="Company Name" required>
+                </p>
+
+            </div>
+            <div>
+                <p>Date
+                    <input type="text" name="date" id="date" placeholder="dd/mm/yyyy" required>
+                </p>
+
+            </div>
+            <div>
+                <p>Depature
+                    <input type="text" name="depature" id="depart" placeholder="Depature" required>
+                </p>
+            </div>
+            <div>
+                <p>Depature Time
+                    <input type="text" name="dtime" id="dtime" placeholder="Depature Time" required>
+                </p>
+
+            </div>
+            <div>
+                <p>Arrival
+                    <input type="text" name="arrival" id="arrival" placeholder="Arrival" required>
+                </p>
+
+            </div>
+            <div>
+                <p>Capacity
+                    <input type="text" name="capacity" id="capacity" placeholder="Capacity" required>
+                </p>
+
+            </div>
+            <div>
+                <p>Price
+                    <input type="text" name="price" id="price" placeholder="Price" required>
+                </p>
+
+            </div>
+            <p>
+
+            </p>
+
+            <p>
+                <input type="submit" name="submit" value="Submit" />
+                <input type="reset" name="cancel" value="Reset" />
+            </p>
+
+        </div>
+    </form>
+</body>
+
+</html>

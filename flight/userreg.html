@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <style>
+        body {
+            background-image: url("images/787275.jpg");
+            height: 800px;
+            background-size: cover;
+            background-position: center;
+            padding-top: 20px;
+        }
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="reg.css">
+    <title>Untitled Document</title>
+</head>
+
+<body>
+
+    <form name="reg" action="insert.php" method="post">
+        <div class="container">
+            <p>&nbsp;</p>
+            <p>
+                <h2>User Registration</h2></p>
+            Customer Name
+            <input type="text" name="name" required/> Enter Your Username
+            <input type="text" name="uname" id="uname" required/> Enter Your Password
+            <input type="password" name="Pass" id="Pass" required/> Enter Your com Password
+            <input type="password" name="CPass" id="CPass" required/>
+            <p>Gender
+                <label>
+                    <input name="gender" type="radio" id="RadioGroup1_0" value="Male" /> Male
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="Female" id="RadioGroup1_1" /> Female
+                </label>
+                <br />
+            </p>
+            <p>
+                <input type="submit" name="submit" value="Submit" />
+                <input type="reset" name="cancel" value="Reset" />
+            </p>
+        </div>
+    </form>
+</body>
+
+</html>

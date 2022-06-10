@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	 <link rel="stylesheet" href="reg.css">
+<title>Untitled Document</title>
+	<style>
+	body{
+	background-image: url( "images/787275.jpg");
+	height: 800px;
+	background-size: cover;
+	background-position: center;
+	padding-top: 20px;
+			
+		}
+	
+	</style>
+</head>
+
+<body>
+
+<form name="reg" action="insetbooking.php" method="post">
+	<div class="container">
+    <p>&nbsp;</p>
+    <p><h2>Flight Booking</h2></p>
+	<div>
+		<p>Name <input type="text" name="name" placeholder="Customer Name" required></p>
+		
+		</div>
+	<div>
+    From <input type="text" name="from" placeholder="City or Code" required>
+		
+		</div>
+	<div>
+    <p>To <input type="text" name="to" id="to" placeholder="City or Code" required></p>
+		
+		</div>
+	<div>
+  <p>Depart <input type="text" name="depart" id="depart" placeholder="mm/dd/yyy" required></p>
+		</div>
+	<p>
+
+	  </p>
+	 
+	 
+	<p>&nbsp;</p>
+	<label>
+	    <input name="radio1" type="radio" id="RadioGroup1_0" value="business" />
+	    Business class</label>
+	  
+	  <label>
+	    
+	    <input type="radio" name="radio1" value="economy" id="RadioGroup1_1" />
+	  Economy class</label>
+	<p><br>
+	  
+	  
+	  <label>
+	    <input name="radio" type="radio" id="RadioGroup1_0" value="rounttrip" />
+	    One way</label>
+	  
+	  <label>
+	    
+	    <input type="radio" name="radio" value="Female" id="RadioGroup1_1" />
+	   Round trip</label>
+	  <br />
+	  </p>
+	  
+	<p> 
+   	  <input type="submit" name="submit" value="Submit"/>
+        <input type="reset" name="cancel" value="Reset"/>
+  </p>
+	
+	</div>
+</form>
+	</body>
+</html>
